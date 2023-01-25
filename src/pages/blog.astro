@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>About</title>
+  </head>
+  <body>
+    <Navbar />
+    <h1>Blog Page page</h1>
+    <ul>
+      <li><a href='/posts/presentation'>Presentation</a></li>
+      <li><a href='/posts/post-1'>post-1</a></li>
+      <li><a href='/posts/post-2'>post-2</a></li>
+      <li><a href='/posts/post-3'>Post-3</a></li>
+    </ul>
+  </body>
+</html>
