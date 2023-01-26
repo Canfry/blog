@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
-import Navbar from '../components/Navbar.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 const homeTitle = 'Home Page';
 ---
@@ -14,7 +15,11 @@ const homeTitle = 'Home Page';
     <title>{homeTitle}</title>
   </head>
   <body>
-    <Navbar />
+    <Header />
     <h1>{homeTitle}</h1>
+    <Footer />
+    <script>
+      import '../scripts/menu.js';
+    </script>
   </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
-import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 ---
 
 <html lang='en'>
@@ -12,7 +13,7 @@ import Navbar from '../components/Navbar.astro';
     <title>About</title>
   </head>
   <body>
-    <Navbar />
+    <Header />
     <h1>Blog Page page</h1>
     <ul>
       <li><a href='/posts/presentation'>Presentation</a></li>
@@ -20,5 +21,9 @@ import Navbar from '../components/Navbar.astro';
       <li><a href='/posts/post-2'>post-2</a></li>
       <li><a href='/posts/post-3'>Post-3</a></li>
     </ul>
+    <Footer />
+    <script>
+      import '../scripts/menu.js';
+    </script>
   </body>
 </html>
