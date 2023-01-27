@@ -1,16 +1,19 @@
 ---
-import '../styles/global.css';
 import BaseLayout from './BaseLayout.astro';
+import '../styles/article.css';
 
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title.toUpperCase()}>
-  <!-- <h1>{frontmatter.title.toUpperCase()}</h1> -->
+<BaseLayout pageTitle={frontmatter.title}>
+  <h1 class='m-auto mt-16'>{frontmatter.title.toUpperCase()}</h1>
 
-  <p>Published on : {frontmatter.date.slice(0, 10)}</p>
-  <div class='coverImage'>
-    <img src={frontmatter.cover_image} alt='Cover Image' />
-  </div>
-  <slot />
+  <p class='text-gray-500'>
+    Published on : {frontmatter.date.slice(0, 10)}
+  </p>
+  <article
+    class='prose prose-custom lg:prose-xl prose-a:text-cyan-500 prose-headings:text-white prose-p:text-gray-300 hover:prose-a:text-cyan-600 prose-strong:bg-cyan-100 prose-strong:text-gray-900 my-24 prose-pre:bg-white'
+  >
+    <slot />
+  </article>
 </BaseLayout>

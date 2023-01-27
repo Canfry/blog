@@ -13,14 +13,14 @@ Hello everybody, welcome to my blog.
 This is my first real full project in order to become a frontend developer. I know that starting this carrer is tricky and require a lot of dedication.
 Along the way we will discuss about all the topics we're gonna find (Frameworks, GitHub, Ressources...). First, let's talk about this project.
 
-I wanted to create a blog starting by the simpliest way (with local data, and using [React](www.reactjs.org)), and scale it up using different framework, some backend, database...
-But after fighting with myself, I've chosen to use [Nextjs](wwww.nextjs.org).
-Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). The best thing would be to use [Astro](www.astro.build), but I keep it for later in my career. This app will probably be an Astro site in a year or less if I work well :joy:.
+I wanted to create a blog starting by the simpliest way (with local data, and using [React](https://www.reactjs.org)), and scale it up using different framework, some backend, database...
+But after fighting with myself, I've chosen to use [Nextjs](https://wwww.nextjs.org).
+Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). The best thing would be to use [Astro](https://www.astro.build), but I keep it for later in my career. This app will probably be an Astro site in a year or less if I work well.
 
-This is the best way for me, and probably for you, to check my skills and my knowledge, and get used to find the answers of my issues, ==doing things==, ==creating content==, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (full project of several hours) make sure to follow with the documentations opened, so you can try by your own before watching the solution.
+This is the best way for me, and probably for you, to check my skills and my knowledge, and get used to find the answers of my issues, doing things, creating content, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (full project of several hours) make sure to follow with the documentations opened, so you can try by your own before watching the solution.
 
 I really want to grow with your support and your feedbacks, so you can grow with me, learning new things and creating more advanced sites or apps.
-I'm very excited about this challenge and this goal, I hope you too :wink:.
+I'm very excited about this challenge and this goal, I hope you too.
 
 ## Let's jump into the project
 
@@ -36,7 +36,7 @@ For me the best code editor on the market, maybe the most popular one. From Micr
 
 #### Nextjs
 
-[Nextjs](wwww.nextjs.org), the React framework created by [Vercel](https://www.vercel.com), giving you all you need for production. From your terminal in the folder of your choice, you just have to type:
+[Nextjs](https://wwww.nextjs.org), the React framework created by [Vercel](https://www.vercel.com), giving you all you need for production. From your terminal in the folder of your choice, you just have to type:
 
 ```
 
@@ -60,7 +60,7 @@ Then you start the application:
 
 ```
 
-==**Congratulation!**== you've just run your first Next app.
+**Congratulation!** you've just run your first Next app.
 
 #### Taildwindcss
 
@@ -73,7 +73,7 @@ A wonderful and popular CSS framework. I love css and [Sass](https://www.sass-la
 
 ```
 
-In this exemple the text in my main element will start with a size of ==base== (16px) on small screen. When my screen reaches the size ==md:== (768px) my text grow to reach ==xl== (20px), and finally at ==lg:== (1024px) my font-size is ==2xl== (24px). How easy it is 👌!!
+In this exemple the text in my main element will start with a size of base (16px) on small screen. When my screen reaches the size md: (768px) my text grow to reach xl (20px), and finally at lg: (1024px) my font-size is 2xl(24px). How easy it is !!👌
 
 ### What's next ?
 
@@ -82,4 +82,4 @@ This first article was an introduction (of course it's the title :joy:), but I h
 
 > "**_Always_ _code_ _with_ _love_ _and_ _passion_**"
 
-Follow me on [twitter](www.twitter.com/design_fry), Check my [Github](www.github.com/Canfry).
+Follow me on [twitter](https://www.twitter.com/design_fry), Check my [Github](https://www.github.com/Canfry).
