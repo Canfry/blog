@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title.toUpperCase()}>
+  <!-- <h1>{frontmatter.title.toUpperCase()}</h1> -->
+
+  <p>Published on : {frontmatter.date.slice(0, 10)}</p>
+  <div class='coverImage'>
+    <img src={frontmatter.cover_image} alt='Cover Image' />
+  </div>
+  <slot />
+</BaseLayout>

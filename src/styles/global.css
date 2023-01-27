@@ -1,14 +1,14 @@
-html {
-  background-color: #f1f5f9;
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
 
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
+  background: radial-gradient(#27272a 0%, #18181b 60%);
+  color: white;
+  min-height: 100vh;
+  font-family: 'Comfortaa', cursive;
 }
 
 * {
@@ -27,57 +27,81 @@ h1 {
   cursor: pointer;
 }
 
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ff9776;
+.close {
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  padding-top: 1rem;
+  padding-right: -0.5rem;
+  margin-bottom: 2rem;
 }
 
-.nav-links {
-  width: 100%;
-  top: 5rem;
-  left: 48px;
-  background-color: #ff9776;
-  display: none;
-  margin: 0;
+.nav-menu {
+  margin-bottom: 64px;
 }
 
-.nav-links a {
-  display: block;
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
   text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  z-index: 10;
+  background-color: rgb(24 24 27);
+  display: none;
 }
 
-.nav-links a:hover,
-a:focus {
-  background-color: #ff9776;
+.nav {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .expanded {
   display: unset;
 }
 
-@media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
+.publicationDate {
+  color: gray;
+}
 
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
+.coverImage {
+  width: 100%;
+  height: 400px;
+}
 
+.coverImage img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tailwindIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.astroIcon {
+  width: 16px;
+  height: 16px;
+  color: rgb(255, 94, 0);
+}
+
+@media screen and (min-width: 640px) {
   .hamburger {
+    display: none;
+  }
+  .nav {
+    display: block;
+  }
+  .menu {
     display: none;
   }
 }

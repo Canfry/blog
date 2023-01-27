@@ -1,9 +1,10 @@
 ---
 import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 
-const homeTitle = 'Home Page';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon';
+
+const pageTitle = 'Home Page';
 ---
 
 <html lang='en'>
@@ -12,14 +13,56 @@ const homeTitle = 'Home Page';
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>{homeTitle}</title>
   </head>
   <body>
-    <Header />
-    <h1>{homeTitle}</h1>
-    <Footer />
-    <script>
-      import '../scripts/menu.js';
-    </script>
+    <BaseLayout pageTitle={pageTitle}>
+      <div
+        class='text-center max-w-[90%] md:max-w-[70%] lg:max-w-[60%] m-auto text-gray-300'
+      >
+        <h1 class='text-3xl xl:text-4xl mb-8 font-bold'>
+          Welcome to <span class='font-bold text-cyan-400'>FryBlog</span>
+        </h1>
+        <p class='text-left mb-4 xl:text-lg font-light'>
+          I&apos;ll try to cover the most important topics regarding web
+          development. Going from beginner&apos;s topics to more advanced ones.
+          <br />
+          You&apos;ll find useful informations and links to different influencers
+          or official websites. My goal is to guide you through the understanding
+          of the topics, how to find answers and what tool or framework to use. I&apos;ll
+          use concrete exemples, real projects, Github repos, other blogs, streamers
+          to follow...
+        </p>
+        <div class='text-center my-8'>
+          <button
+            class='hover:bg-cyan-500 rounded-md bg-cyan-600 text-white py-2 px-4 mb-4'
+          >
+            <a href='/blog'>BLOG</a>
+          </button>
+        </div>
+
+        <p class='mb-4 font-bold text-sm'>FOLLOW ME ON :</p>
+        <div class='flex align-center justify-center text-4xl'>
+          <a target='_blank' rel='noreferrer' href='https://github.com/Canfry'>
+            <Icon
+              pack='ri'
+              name='github-fill'
+              class='w-[36px] h-[36px] text-[#6e5494] hover:scale-110'
+            />
+          </a>
+
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://twitter.com/design_fry'
+          >
+            <Icon
+              pack='mdi'
+              name='twitter'
+              class='w-[36px] h-[36px] text-[#1da1f2] ml-8 hover:scale-110'
+            />
+          </a>
+        </div>
+      </div>
+    </BaseLayout>
   </body>
 </html>

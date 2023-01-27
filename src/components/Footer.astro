@@ -1,16 +1,20 @@
 ---
-import Social from './Social.astro';
+import { Icon } from 'astro-icon';
+import '../styles/global.css';
 ---
 
-<style>
-  footer {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-</style>
-
 <footer>
-  <Social platform='twitter' username='design_fry' />
-  <Social platform='github' username='canfry' />
+  <div class='bg-zinc-900 w-[100vw] py-6 text-center text-gray-500'>
+    <h3>Copyright &copy; Fry Design 2022</h3>
+    <div class='flex justify-center items-center mt-4 text-sm text-gray-400'>
+      <div class='flex mr-1'>
+        <p class='mr-1'>Built with Astro</p>
+        <Icon pack='simple-icons' name='astro' class='astroIcon' />
+      </div>
+      <div class='flex'>
+        <p class='ml-1 mr-1'>and Tailwindcss</p>
+        <Icon pack='logos' name='tailwindcss-icon' class='tailwindIcon' />
+      </div>
+    </div>
+  </div>
 </footer>
