@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPosts = await Astro.glob('../posts/*.md');
+const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
+
+const pageTitle = 'Tage Page';
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <div class='flex flex-col w-[80%] m-auto justify-center gap-4 items-center'>
+    <div class='text-xl'>Search by tag:</div>
+    <div class='tags'>
+      {
+        tags.map((tag) => (
+          <p class='tag bg-zinc-800'>
+            <a href={`/tags/${tag}`} class='text-cyan-500 hover:text-white'>
+              {tag}
+            </a>
+          </p>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>
+<style>
+  a {
+    color: rgb(6 182 212);
+  }
+
+  .tags {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    background-color: rgb(63 63 70);
+  }
+</style>
