@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Presentation'
+description: 'My Blog'
 date: '09/19/2022'
 excerpt: 'Hello everybody, welcome to my blog.
 This is my first real full project in order to...'
