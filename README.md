@@ -25,6 +25,20 @@ For the markdow layout I've used the [tailwind/typography plugin](https://tailwi
   </article>
 ```
 
+I also use [Astro Icon](https://github.com/natemoo-re/astro-icon#readme), which is very easy to install and to use. You will find all the needed icons for your projects. For exemple:
+
+```
+import { Icon } from 'astro-icon'; (in the frontmatter)
+
+and use it in the component
+
+<Icon
+              pack='ri'
+              name='github-fill'
+              class='w-[36px] h-[36px] text-[#6e5494] hover:scale-110'
+            />
+```
+
 I´ve just added some js files:
 
 - For the animation of the hamburger menu (script/menu.js)
