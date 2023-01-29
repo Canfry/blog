@@ -1,10 +1,13 @@
 ---
 import BlogPost from '../components/BlogPost.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { sortByDate } from '../utils';
 
 const pageTitle = 'Blog Page';
 
 const allPosts = await Astro.glob('../pages/posts/*.md');
+
+const sortedPosts = allPosts.sort(sortByDate);
 ---
 
 <html lang='en'>
@@ -19,7 +22,7 @@ const allPosts = await Astro.glob('../pages/posts/*.md');
     <BaseLayout pageTitle={pageTitle}>
       <ul>
         {
-          allPosts.map((post) => (
+          sortedPosts.map((post) => (
             <BlogPost
               url={post.url}
               title={post.frontmatter.title}

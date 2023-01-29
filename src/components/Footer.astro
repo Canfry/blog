@@ -1,11 +1,13 @@
 ---
 import { Icon } from 'astro-icon';
 import '../styles/global.css';
+
+const date = new Date().getFullYear();
 ---
 
 <footer class='mt-8'>
   <div class='bg-zinc-900 w-[100vw] py-6 text-center text-gray-500'>
-    <p>Copyright &copy; Fry Design 2022</p>
+    <p>Copyright &copy; Fry Design {date}</p>
     <div class='flex justify-center items-center mt-4 text-sm text-gray-400'>
       <div class='flex mr-1'>
         <p class='mr-1'>Built with Astro</p>
