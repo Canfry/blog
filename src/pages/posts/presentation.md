@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'Presentation'
 description: 'My Blog'
-date: '09/19/2022'
+date: '01/29/2023'
 excerpt: 'Hello everybody, welcome to my blog.
 This is my first real full project in order to...'
 cover_image: '/assets/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpeg'
@@ -15,9 +15,8 @@ Hello everybody, welcome to my blog.
 This is my first real full project in order to become a frontend developer. I know that starting this carrer is tricky and require a lot of dedication.
 Along the way we will discuss about all the topics we're gonna find (Frameworks, GitHub, Ressources...). First, let's talk about this project.
 
-I wanted to create a blog starting by the simpliest way (with local data, and using [React](https://www.reactjs.org)), and scale it up using different framework, some backend, database...
-But after fighting with myself, I've chosen to use [Nextjs](https://wwww.nextjs.org).
-Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). The best thing would be to use [Astro](https://www.astro.build), but I keep it for later in my career. This app will probably be an Astro site in a year or less if I work well.
+First, I wanted to create a blog using [Nextjs](https://wwww.nextjs.org), but after failing so much trying to render my mardown files into HTML, I've chosen to use [Astro](https://www.astro.build).
+Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). And Astro gives a amazing build-in implementation of mardown files(.md, .mdx).
 
 This is the best way for me, and probably for you, to check my skills and my knowledge, and get used to find the answers of my issues, doing things, creating content, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (full project of several hours) make sure to follow with the documentations opened, so you can try by your own before watching the solution.
 
@@ -36,17 +35,17 @@ You will see a lot of different maners to use a terminal (the default one on you
 
 For me the best code editor on the market, maybe the most popular one. From Microsoft, this free code editor give you the possibility to work in the best condition. Very customizable and with an infinite number of extensions and settings, to let you work as you want and in the language that you want. Easy to install, easy to use and a huge community around so you will always find the help you need. Ckeck out the [documentation](https://code.visualstudio.com). A lot of ressources available regarding VScode ([James Q Quick](https://www.jamesqquick.com), [codeSTACKr](https://www.codestackr.com) and much more)
 
-#### Nextjs
+#### Astro
 
-[Nextjs](https://wwww.nextjs.org), the React framework created by [Vercel](https://www.vercel.com), giving you all you need for production. From your terminal in the folder of your choice, you just have to type:
+[Astro](https://www.astro.build), an amazing framework to build faster websites. Different from the other popular SPA (Single Page Application) frameworks like Reactjs or Vuejs, with his island architecture. Everything happens on the server as much as possible, as a MPA (Multiple Page Application). I let you discover the deep explanation of these concepts, [here](https://docs.astro.build/en/concepts/mpa-vs-spa/). Want to try ? From your terminal in the folder of your choice, you just have to type:
 
 ```
 
-  npx create-next-app@latest
+  npm create astro@latest
   # or
-  yarn create next-app
+  yarn create astro
   # or
-  pnpm create next-app
+  pnpm create astro@latest
 
 
 ```

@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
 
 body {
-  margin: 0 auto;
   width: 100%;
-  padding: 1rem;
   line-height: 1.5;
   background: radial-gradient(#27272a 0%, #18181b 60%);
   color: white;

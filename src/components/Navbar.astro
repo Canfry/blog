@@ -3,19 +3,20 @@ import Hamburger from './Hamburger.astro';
 import Close from './Close.astro';
 
 import '../styles/global.css';
+import ThemeIcon from './ThemeIcon.astro';
 ---
 
-<header class='w-full bg-zinc-900 relative'>
+<header class='w-full bg-zinc-900 relative p-[1rem]'>
   <div
     class='max-w-[90%] md:max-w-[70%] lg:max-w-[60%] m-auto py-4 flex justify-between items-center'
   >
     <div>
       <a href='/' class='text-cyan-500 text-2xl'>Fryblog</a>
     </div>
+
     <Hamburger />
     <nav class='nav'>
       <ul class='sm:flex sm:items-center sm:justify-between'>
-        <!-- <li class='ml-8 hover:text-cyan-500 text-gray-400'> -->
         <li
           class={`ml-8 hover:text-cyan-500  ${
             Astro.url.pathname === '/'
