@@ -63,12 +63,12 @@ A wonderful and popular CSS framework. I love CSS and [Sass](https://www.sass-la
 
 "className='text-base md:text-xl lg:text-2xl"
 
-In this example, the text in my main element will start with a size of base (16px) on small screen. When my screen reaches the size md: (768px) my text grows to reach xl (20px), and finally at lg: (1024px) my font-size is 2xl(24px). How easy it is !!👌. Check their [documentation](https://www.tailwindcss.com).
+In this example, the text in my main element will start with a size of base (16px) on small screens. When my screen reaches the size md: (768px) my text grows to reach xl (20px), and finally at lg: (1024px) my font-size is 2xl(24px). How easy it is !!👌. Check their [documentation](https://www.tailwindcss.com).
 
 ### What's next ?
 
-From now on, I'll post articles on specific topics and not so general, so we can go deepper into it and be more precise.
-This first article was an introduction (of course it's the title :joy:), but I hope you've found it helpfull anyway with the will to see more.
+From now on, I'll post articles on specific topics and not-so-general ones so we can go deeper into them and be more precise.
+This first article was an introduction (of course it's the title), but I hope you've found it helpful anyway with the will to see more.
 
 > "**_Always_ _code_ _with_ _love_ _and_ _passion_**"
 
