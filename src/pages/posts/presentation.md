@@ -18,7 +18,7 @@ Along the way, we will discuss all the topics we're gonna find (Frameworks, GitH
 First, I wanted to create a blog using [Nextjs](https://www.nextjs.org), but after failing so much trying to render my markdown files into HTML, I've chosen to use [Astro](https://www.astro.build).
 Following Youtubers or reading articles I saw that markdown files are very popular for static sites (more specifically blogs). And Astro gives an amazing built-in implementation of markdown files(.md, .mdx).
 
-This is the best way for me, and probably for you, to check my skills and my knowledge, and get used to find the answers of my issues, doing things, creating content, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (full project of several hours) make sure to follow with the documentations opened, so you can try by your own before watching the solution.
+This is the best way for me, and probably for you, to check my skills and my knowledge, and get used finding the answers to my issues, doing things, creating content, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (a full project of several hours) make sure to follow with the documentation opened, so you can try on your own before watching the solution.
 
 I really want to grow with your support and your feedbacks, so you can grow with me, learning new things and creating more advanced sites or apps.
 I'm very excited about this challenge and this goal, I hope you too.
