@@ -16,7 +16,7 @@ This is my first real full project in order to become a frontend developer. I kn
 Along the way we will discuss about all the topics we're gonna find (Frameworks, GitHub, Ressources...). First, let's talk about this project.
 
 First, I wanted to create a blog using [Nextjs](https://www.nextjs.org), but after failing so much trying to render my mardown files into HTML, I've chosen to use [Astro](https://www.astro.build).
-Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). And Astro gives a amazing build-in implementation of mardown files(.md, .mdx).
+Following Youtubers or reading articles I saw that markdown files are very popular for static site (more specifically blogs). And Astro gives an amazing build-in implementation of mardown files(.md, .mdx).
 
 This is the best way for me, and probably for you, to check my skills and my knowledge, and get used to find the answers of my issues, doing things, creating content, and not following a tutorial. Tutorials are really good to check for specific topics, and if you follow a full tutorial (full project of several hours) make sure to follow with the documentations opened, so you can try by your own before watching the solution.
 

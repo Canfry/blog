@@ -24,6 +24,7 @@ h1 {
 
 .hamburger {
   cursor: pointer;
+  color: #06b6d4;
 }
 
 .close {
