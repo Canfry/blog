@@ -72,4 +72,4 @@ This first article was an introduction (of course it's the title), but I hope yo
 
 > "**_Always_ _code_ _with_ _love_ _and_ _passion_**"
 
-Follow me on [twitter](https://www.twitter.com/design_fry), Check my [Github](https://www.github.com/Canfry).
+Follow me on [Twitter](https://www.twitter.com/design_fry), Check my [GitHub](https://www.github.com/Canfry).
