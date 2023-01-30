@@ -29,15 +29,15 @@ I'm very excited about this challenge and this goal, and I hope you are too.
 
 #### Terminal
 
-You will see a lot of different maners to use a terminal (the default one on your machine, IDE's integrated terminal, 3rd party terminal...). I prefer to use my default terminal because it does exactly the same thing so why I need another one. If you're not familiar with the terminal (or Command-Line-Interface or CLI), I advice you to get used to work with it, because it's a fast and useful tool. Brad Traversy has a very nice video on this topic, [here](https://www.youtube.com/watch?v=uwAqEzhyjtw&t=2081s).
+You will see a lot of different manners to use a terminal (the default one on your machine, IDE's integrated terminal, 3rd party terminal...). I prefer to use my default terminal because it does exactly the same thing so why do I need another one? If you're not familiar with the terminal (or Command-Line-Interface or CLI), I advise you to get used to working with it, because it's a fast and useful tool. Brad Traversy has a very nice video on this topic, [here](https://www.youtube.com/watch?v=uwAqEzhyjtw&t=2081s).
 
 #### Visual Studio Code
 
-For me the best code editor on the market, maybe the most popular one. From Microsoft, this free code editor give you the possibility to work in the best condition. Very customizable and with an infinite number of extensions and settings, to let you work as you want and in the language that you want. Easy to install, easy to use and a huge community around so you will always find the help you need. Ckeck out the [documentation](https://code.visualstudio.com). A lot of ressources available regarding VScode ([James Q Quick](https://www.jamesqquick.com), [codeSTACKr](https://www.codestackr.com) and much more)
+For me the best code editor on the market, maybe the most popular one. From Microsoft, this free code editor gives you the possibility to work in the best condition. Very customizable and with an infinite number of extensions and settings, to let you work as you want and in the language that you want. Easy to install, easy to use and has a huge community around so you will always find the help you need. Check out the [documentation](https://code.visualstudio.com). A lot of resources available regarding VScode ([James Q Quick](https://www.jamesqquick.com), [codeSTACKr](https://www.codestackr.com) and much more)
 
 #### Astro
 
-[Astro](https://www.astro.build), an amazing framework to build faster websites. Different from the other popular SPA (Single Page Application) frameworks like Reactjs or Vuejs, with his island architecture. Everything happens on the server as much as possible, as a MPA (Multiple Page Application). I let you discover the deep explanation of these concepts, [here](https://docs.astro.build/en/concepts/mpa-vs-spa/). Want to try ? From your terminal in the folder of your choice, you just have to type:
+[Astro](https://www.astro.build), is an amazing framework to build faster websites. Different from the other popular SPA (Single Page Application) frameworks like Reactjs or Vuejs, with his island architecture. Everything happens on the server as much as possible, as a MPA (Multiple Page Application). I let you discover the deep explanation of these concepts, [here](https://docs.astro.build/en/concepts/mpa-vs-spa/). Want to try? From your terminal in the folder of your choice, you just have to type:
 
 ```
 npm create astro@latest
@@ -55,7 +55,7 @@ npm run dev
 yarn dev
 ```
 
-**Congratulation!** you've just run your first Next app.
+**Congratulation!** you've just run your first Astro app.
 
 #### Taildwindcss
 
