@@ -40,25 +40,19 @@ For me the best code editor on the market, maybe the most popular one. From Micr
 [Astro](https://www.astro.build), an amazing framework to build faster websites. Different from the other popular SPA (Single Page Application) frameworks like Reactjs or Vuejs, with his island architecture. Everything happens on the server as much as possible, as a MPA (Multiple Page Application). I let you discover the deep explanation of these concepts, [here](https://docs.astro.build/en/concepts/mpa-vs-spa/). Want to try ? From your terminal in the folder of your choice, you just have to type:
 
 ```
-
-  npm create astro@latest
-  # or
-  yarn create astro
-  # or
-  pnpm create astro@latest
-
-
+npm create astro@latest
+# or
+yarn create astro
+# or
+pnpm create astro@latest
 ```
 
 Then you start the application:
 
 ```
-
-  npm run dev
-  # or
-  yarn dev
-
-
+npm run dev
+# or
+yarn dev
 ```
 
 **Congratulation!** you've just run your first Next app.
@@ -67,14 +61,9 @@ Then you start the application:
 
 A wonderful and popular CSS framework. I love css and [Sass](https://www.sass-lang.com) because i like to target my tags with descriptive names (you'll have to know css before jumping into a framework), but when you try tailwind you just love it because it saves you a lot of time and at the same time you can really customize everything. I admit that it can be a mess because your HTML tags can contain so many classes, but you get used to it and it works really fine. What I love is how easy is to make your site responsive in just one line. See the exemple:
 
-```
+"className='text-base md:text-xl lg:text-2xl"
 
-  <main className='text-base md:text-xl lg:text-2xl'>
-
-
-```
-
-In this exemple the text in my main element will start with a size of base (16px) on small screen. When my screen reaches the size md: (768px) my text grow to reach xl (20px), and finally at lg: (1024px) my font-size is 2xl(24px). How easy it is !!👌
+In this exemple the text in my main element will start with a size of base (16px) on small screen. When my screen reaches the size md: (768px) my text grow to reach xl (20px), and finally at lg: (1024px) my font-size is 2xl(24px). How easy it is !!👌. Check their [documentation](https://www.tailwindcss.com).
 
 ### What's next ?
 
