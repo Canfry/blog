@@ -20,7 +20,9 @@ const sortedPosts = allPosts.sort(sortByDate);
   </head>
   <body>
     <BaseLayout pageTitle={pageTitle}>
-      <ul>
+      <div
+        class='grid grid-cols-1 md:grid-cols-2 gap-16 max-w-[90%] md:max-w-[70%] lg:max-w-[60%] mx-auto mt-16 md:mt-0'
+      >
         {
           sortedPosts.map((post) => (
             <BlogPost
@@ -28,10 +30,11 @@ const sortedPosts = allPosts.sort(sortByDate);
               title={post.frontmatter.title}
               excerpt={post.frontmatter.excerpt}
               date={post.frontmatter.date}
+              tags={post.frontmatter.tags}
             />
           ))
         }
-      </ul>
+      </div>
     </BaseLayout>
   </body>
 </html>

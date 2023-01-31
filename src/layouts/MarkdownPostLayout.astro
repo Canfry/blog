@@ -15,7 +15,7 @@ const { frontmatter } = Astro.props;
     <a href='/blog'>Go back</a>
   </div>
   <div
-    class='w-[90%] md:w-[70%] m-auto mt-16 flex flex-col justify-center gap-4 items-center'
+    class='w-[90%] sm:w-[90%] md:w-[70%] lg:w-[60%] m-auto mt-16 flex flex-col justify-center gap-4 items-center'
   >
     <p class='text-md sm:text-lg md:text-4xl'>
       {frontmatter.title.toUpperCase()}
@@ -23,11 +23,10 @@ const { frontmatter } = Astro.props;
     <p class='text-gray-500 text-sm md:text-lg'>
       Published on : {frontmatter.date.slice(0, 10)}
     </p>
+    <article
+      class='prose prose-base md:prose-lg lg:prose-xl prose-a:text-cyan-500 prose-headings:text-white prose-p:text-gray-300 hover:prose-a:text-cyan-600 prose-strong:bg-cyan-100 prose-strong:text-gray-900 my-24 prose-pre:bg-white max-w-none h-full'
+    >
+      <slot />
+    </article>
   </div>
-
-  <article
-    class='prose prose-base md:prose-lg lg:prose-xl prose-a:text-cyan-500 prose-headings:text-white prose-p:text-gray-300 hover:prose-a:text-cyan-600 prose-strong:bg-cyan-100 prose-strong:text-gray-900 my-24 prose-pre:bg-white md:w-[70%] m-auto max-w-none h-full'
-  >
-    <slot />
-  </article>
 </BaseLayout>

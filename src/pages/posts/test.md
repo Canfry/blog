@@ -6,7 +6,7 @@ date: '01/27/2023'
 excerpt: 'Hello everybody, welcome to my blog.
 This is my first real full project in order to...'
 cover_image: '/assets/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpeg'
-tags: ['test2', 'test1']
+tags: ['test2', 'astro', 'terminal']
 ---
 
 ## Intro

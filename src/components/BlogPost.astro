@@ -1,13 +1,13 @@
 ---
-const { url, title, excerpt, date } = Astro.props;
+const { url, title, excerpt, date, tags } = Astro.props;
 ---
 
 <div
-  class='max-w-[80%] md:max-w-[70%] lg:max-w-[60%] m-auto flex flex-col items-center justify-center shadow-md shadow-cyan-500 mt-12'
+  class='w-full flex flex-col flex-wrap items-start justify-center shadow-md shadow-cyan-500'
 >
-  <a href={url}>
+  <a href={url} class='w-full'>
     <div
-      class='pt-4 pb-8 px-8 rounded-md rounded-t-none m-auto w-full flex flex-col items-start gap-4'
+      class='pt-4 pb-8 px-8 rounded-md rounded-t-none m-auto w-full flex flex-col items-start flex-wrap gap-4'
     >
       <h1 class='text-2xl uppercase font-bold text-white'>
         {title}
@@ -16,4 +16,39 @@ const { url, title, excerpt, date } = Astro.props;
       <p class='text-gray-300 font-thin'>{excerpt}</p>
     </div>
   </a>
+  <div class='tags'>
+    {
+      tags.map((tag) => (
+        <p class='tag bg-zinc-700'>
+          <a href={`/tags/${tag}`} class='text-cyan-500 hover:text-white'>
+            {tag}
+          </a>
+        </p>
+      ))
+    }
+  </div>
 </div>
+
+<style>
+  a {
+    color: rgb(6 182 212);
+  }
+
+  .tags {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 16px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 32px;
+  }
+
+  .tag {
+    border-radius: 0.5em;
+    padding: 0.25em 0.5em;
+    background-color: rgb(63 63 70);
+    font-size: 0.75rem;
+  }
+</style>
