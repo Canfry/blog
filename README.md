@@ -84,4 +84,4 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [the documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
 
-Follow me on [Twitter](https://www.twitter.com/design_fry)
+Follow me on [Twitter](https://twitter.com/ChristopheAnfry)
