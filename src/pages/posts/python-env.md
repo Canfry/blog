@@ -3,7 +3,7 @@ layout: '../../layouts/MarkdownPostLayout.astro'
 title: 'What is Python Environment?'
 description: 'Understand and manage Python environment'
 date: '10/29/2023'
-excerpt: 'For so many times, I was using my default terminal without changing anything, not even the default theme and background...'
+excerpt: 'what-is-python-environment-and-how-to-use-it...'
 cover_image: '/assets/python-logo.jpg'
 tags: ['web development', 'python', 'virtual-environment']
 ---
