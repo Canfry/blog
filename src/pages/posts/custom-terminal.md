@@ -38,4 +38,4 @@ This command will open a color palette with all the needed color codes to replac
 
 I know it's a short article but it's a simple and useful one. Spending a little bit of time with it and you will get a fantastic terminal like the screenshot below with autocomplete (all that you need). Happy coding!!
 
-![Screenshot](../../../assets/terminal.png)
+[Screenshot](../../../assets/terminal.png)
