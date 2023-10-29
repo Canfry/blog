@@ -8,20 +8,20 @@ cover_image: '/assets/python-logo.jpg'
 tags: ['web development', 'python', 'virtual-environment']
 ---
 
-# Introduction
+## Introduction
 
 3 years ago I started learning Python, and what made stop learning it, were the issues I had with virtual environment, Python interpreter, path errors and a lot or other problems I wasn't able to understand as I was starting learning web development. In this article, we will have a look on what all this words means, how they work and especially the importance of setting up a virtual environment to make your developer experience enjoyable and simpler.
 
-# The Python interpreter
+## The Python interpreter
 
 At the heart of the Python environment is the Python interpreter. It is responsible for executing Python code line by line. The interpreter reads the code, converts it into bytecode, and then executes the bytecode. This process allows Python to be an interpreted language, enabling developers to write and run code more quickly.
 You can have different interpreters on your system as Python version and if you want to learn more about it and how to manage it, please check out this [blog](https://www.baeldung.com/linux/python-multiple-versions)
 
-# Package Management with Pip
+## Package Management with Pip
 
 Python has a powerful package management system called pip. Pip allows you to easily install, upgrade, and manage third-party libraries and packages for your Python projects. When you install a package using pip, it is downloaded from the Python Package Index (PyPI) and installed into your Python environment.
 
-# Virtual Environments
+## Virtual Environments
 
 The best way to code and to not be confused about different Python versions, Python interpreters, and package versions, is to set up a Virtual environment.
 
@@ -32,7 +32,7 @@ When you activate a virtual environment, it modifies the system's PATH variable 
 A important point to understand is that when you install a package globally in your system it downloads the latest version each time, overriding the previous version installed (if you already had one installed). For a better understanding let's take an example:
 You create a project and install "Pandas" for example. You work on it and everything goes well. Later on you create another project with pandas which has new functionalities and you want to try it. So you install again pandas and you enjoy the new functionalities. The problem is when you go back to your first pandas project maybe it will not work anymore as expected and the pandas version you have on your system, is the new one so your code is not working as it should be over the years/months/projects. This where virtual environment takes all its sense.
 
-# Create your virtual environment
+## Create your virtual environment
 
 All this steps have to be done inside your project directory
 
@@ -86,15 +86,14 @@ deactivate
 3. Requirements.txt file
    A good practice to have is to create a file called requirements.txt in your root directory, where you put all your packages with their respective version. So when someone clone your code, for example, it will install the correct version for the code to work properly on other virtual environments.
    In this file just write:
-   Flask=3.0.0
-   requests=2.31.0
+   ![Screenshot](../../../assets/requirements.png)
    Once your file created you can run the following command to install those packages:
    ```
    pip install -r requirements.txt
    ```
    Maybe you notice that in my example I use pip and you have probably seen, if you're on Mac pip3. When you're in a virtual environment the command pip will work as a pip3 so no need to worry about it. Pip also works seamlessly with virtual environments. When you activate a virtual environment, pip automatically knows to install packages into that specific environment, keeping them separate from other projects. This makes it easier to manage dependencies and ensures that your project remains isolated from others.
 
-# Conclusion
+## Conclusion
 
 Understanding how the Python environment works is crucial for any Python developer. The Python interpreter, virtual environments, and the package management system all play a significant role in creating a smooth and efficient development experience. By leveraging these tools effectively, you can build and deploy Python applications with confidence and ease.
 
