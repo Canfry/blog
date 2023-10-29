@@ -10,7 +10,7 @@ tags: ['web development', 'python', 'virtual-environment']
 
 ## Introduction
 
-3 years ago I started learning Python, and what made stop learning it, were the issues I had with virtual environment, Python interpreter, path errors and a lot or other problems I wasn't able to understand as I was starting learning web development. In this article, we will have a look on what all this words means, how they work and especially the importance of setting up a virtual environment to make your developer experience enjoyable and simpler.
+3 years ago I started learning Python, and what made me stop learning it, were the issues I had with virtual environment, Python interpreter, path errors and a lot of other problems I wasn't able to understand as I was starting learning web development. In this article, we will have a look at what all these words mean, how they work and especially the importance of setting up a virtual environment to make your developer experience enjoyable and simpler.
 
 ## The Python interpreter
 
@@ -23,18 +23,18 @@ Python has a powerful package management system called pip. Pip allows you to ea
 
 ## Virtual Environments
 
-The best way to code and to not be confused about different Python versions, Python interpreters, and package versions, is to set up a Virtual environment.
+The best way to code and not be confused about different Python versions, Python interpreters, and package versions, is to set a Virtual environment.
 
 Virtual environments are an essential part of the Python environment, especially when working on complex projects with multiple dependencies. A virtual environment is an isolated environment that allows you to have different versions of Python and installed packages for each project. It prevents conflicts between different projects by creating a separate environment for each one.
 
 When you activate a virtual environment, it modifies the system's PATH variable to ensure that the Python interpreter and packages installed within that environment take precedence over the global ones. This way, you can have different versions of packages and Python itself without affecting other projects or the system as a whole.
 
-A important point to understand is that when you install a package globally in your system it downloads the latest version each time, overriding the previous version installed (if you already had one installed). For a better understanding let's take an example:
-You create a project and install "Pandas" for example. You work on it and everything goes well. Later on you create another project with pandas which has new functionalities and you want to try it. So you install again pandas and you enjoy the new functionalities. The problem is when you go back to your first pandas project maybe it will not work anymore as expected and the pandas version you have on your system, is the new one so your code is not working as it should be over the years/months/projects. This where virtual environment takes all its sense.
+An important point to understand is that when you install a package globally in your system it downloads the latest version each time, overriding the previous version installed (if you already had one installed). For a better understanding let's take an example:
+You create a project and install "Pandas" for example. You work on it and everything goes well. Later on, you create another project with pandas which has new functionalities and you want to try it. So you install again pandas and you enjoy the new functionalities. The problem is when you go back to your first pandas project maybe it will not work anymore as expected and the pandas version you have on your system, is the new one so your code is not working as it should be over the years/months/projects. This where a virtual environment takes all its sense.
 
 ## Create your virtual environment
 
-All this steps have to be done inside your project directory
+All these steps have to be done inside your project directory
 
 1. To create a virtual environment, you use the venv module, which is included in Python 3.3 and later. You can create a virtual environment by running the following command in your terminal:
 
